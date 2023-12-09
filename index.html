@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>E-krishak</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto&family=Signika+Negative&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "Signika Negative";
+  background: #fdf7e4;
+  /* background: radial-gradient(circle, rgb(98, 96, 96) 0%, #4e4e4b 100%); */
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1 {
+  /* font-weight: 800; */
+  margin: 1rem 0 0;
+  color: rgb(0, 0, 0);
+}
+header {
+  max-width: 100%;
+  position: relative;
+  /* background: #e2e2e2; */
+  /* padding: 10em; */
+  /* background-color: #bbab8c; */
+}
+nav {
+  /* max-width: 100%; */
+  /* margin: 1.5rem; */
+  /* background-color: red; */
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navigation li {
+  margin: 0;
+  padding: 1em 3em;
+  border-radius: 10px;
+  border: 1px solid black;
+  /* background-color: white; */
+  list-style: none;
+  display: flex;
+  flex-direction: row;  
+  margin: 10px;
+}
+#navigation li:hover {
+  background-color: #bbab8c;
+}
+
+#navigation li a {
+ text-decoration: none;
+}
+
+/* Main Block */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Home Block */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ded0b6;
+  padding: 1em 10em;
+}
+
+#home h1{
+  font-size: 2em;
+}
+
+#home p{
+  font-size: 0.7em;
+}
+
+#home a{
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 0.8em;
+  background-color: #d2e0fb;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#home a:hover {
+  background-color: #f9f3cc;
+}
+
+/* Features Block */
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #b6fffa;
+
+}
+
+#features li{
+  padding: 1em 2em;
+  margin: 2rem;
+  background: #bbab8c;
+  font-size: 0.8em;
+}
+
+#features li:hover{
+  box-shadow: 0 0 5px #feffac, 0 0 25px #feffac, 0 0 50px #feffac, 0 0 100px #feffac, 0 0 200px #feffac;
+}
+
+/* Login Block */
+
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: #ded0b6;
+}
+
+#login ul{
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#login li{
+  margin: 7px;
+  font-size: 0.7em
+}
+
+#login input{
+  padding: 0.7em 5em;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#login li a{
+  background: #fff78a;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#login li a:hover{
+  background: #ffa732;
+}
+
+#loginbtn {
+  padding: 0.2em;
+}
+
+/* About and Contact Block */
+
+.about {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns:  auto auto auto;
+  width: 100vw;
+}
+
+.about section{
+  /* position: absolute; */
+  width: 50vw;
+  padding: 0 1em;
+}
+
+#about {
+  /* position: relative; */
+  margin: 0 auto;
+ background: #f3eeea;
+}
+
+#contact {
+  /* position: relative; */
+  margin: 0;
+  padding: 0;
+  background: #ebe3d5;
+}
+#contact p {
+  margin: 0;
+  padding: 10px;
+}
+.small{
+  font-size: 0.5em;
+}
+
+/* Footer Block */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  width: 100vw;
+  font-size: small;
+  font-weight: normal;
+}
+
+footer p{
+  margin: 0;
+  padding: 0;
+}
+  </style>
+
+</head>
+<body>
+  <header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>AI BASED IT TRAINING SYSTEM</h1>
+<h1>e-Krishak<h1>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Tech Learner</h1>
+            <p>Contact your Learning Journey Begins Here</p>
+            <a href="#">Get Started</a>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Personalized Learning</li>
+                <li>Customized modules based on your level</li>
+                <li>Quiz Section</li>
+            </ul>
+        </section>
+        <section id="login">
+          <h3>Login to Your Account</h3>
+          <ul>
+              <li>Employee ID:</li>
+              <li><input type="text" id=""></li>
+              <li>Password:</li>
+              <li><input type="text" id=""></li>
+              <li><a href="#" id="loginbtn">Login</a></li>
+          </ul>
+      </section>
+      <div class="about">
+        <section id="about">
+            <h3>About</h3>
+            <p>Your Learning Journey Begins Here</p>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Contact information</p>
+            <p class="small">Address : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente id veniam sit eius impedit? Dicta, explicabo. Officiis aspernatur impedit deleniti quasi delectus dolores rem? Harum ipsa neque quam maxime quisquam enim officiis suscipit quas veritatis! </p>
+            <p class="small">Number : </p>
+            <p class="small">Email : </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tech Learner. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
